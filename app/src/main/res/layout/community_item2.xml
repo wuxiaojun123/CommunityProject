@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_ll_item"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <cms.wxj.community.view.ClickImageView
+        android:id="@+id/id_iv_building"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="20dp"
+        android:layout_height="40dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/img_person_task" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/img_person_left_nv_1" />
+
+    </LinearLayout>
+
+</FrameLayout><!--
+<com.qfdqc.views.demo.view.CommunityPersonView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_person"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@mipmap/img_person_left_nv_1" />-->
